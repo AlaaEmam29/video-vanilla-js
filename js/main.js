@@ -3,7 +3,6 @@
 const switchBtn = document.querySelector(".switch-btn"),
 video = document.querySelector(".video-container");
 switchBtn.addEventListener("click",function() {
-// const btn = e.currentTarget.classList;
 if(switchBtn.classList.contains("slide"))
 {
     switchBtn.classList.remove("slide");
